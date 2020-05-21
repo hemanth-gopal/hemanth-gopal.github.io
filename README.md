@@ -1,5 +1,5 @@
 # My Portfolio Website
 
-Welcome to my portofolio website. 
+Welcome to my Portfolio website. 
 
 Check it out here : https://hemanth-gopal.github.io
