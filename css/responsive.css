@@ -1,9 +1,6 @@
 
 /* if The viewport is equal to 340px or less */
 @media only screen and (max-width: 375px) {
-    .header_area .main-menu{
-        border: 2px solid red;
-    }
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand, .site-main .contact-area{
         padding: 2%;
@@ -30,6 +27,9 @@
         font-size: 31px;
         letter-spacing: 10px;
    }
+   .site-main .site-banner .site-title h1{
+    font-size: 51px;
+}
     .site-main .brand-area {
         padding-left: 2rem
    }
