@@ -5,13 +5,13 @@
         border: 2px solid red;
     }
     .header_area .main-menu .navbar,
-    .header_area .main-menu .navbar .navbar-brand, .site-main .services-area{
+    .header_area .main-menu .navbar .navbar-brand, .site-main .contact-area{
         padding: 2%;
         margin: 0%;
        
         
    }
-   .site-main > .services-area .services{
+   .site-main > .contact-area .contact{
        margin: 0rem;
        padding-right :0rem;
        padding-left: 0rem;
@@ -20,7 +20,7 @@
     .site-main .site-banner .site-title h1{
         font-size: 41px;
    }
-    .site-main > .services-area .services{
+    .site-main > .contact-area .contact{
         width: 13rem;
    }
 }
@@ -39,9 +39,6 @@
     .site-main .about-area .about-title p{
         padding: 0%;
    }
-   .site-main .services-area .services-list .row. .services{
-       padding-left: 0;
-   }
 }
 /* if the viewport is equal to 1910px or less than that */
 @media only screen and (max-width: 1910px){
@@ -52,7 +49,7 @@
     .container{
         max-width: 90%;
    }
-    .site-main .brand-area, .site-main .services-area .services-title, .site-main .about-area{
+    .site-main .brand-area, .site-main .contact-area .contact-title, .site-main .about-area{
         padding: 3% 4%;
    }
 }

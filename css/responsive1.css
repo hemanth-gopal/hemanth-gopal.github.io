@@ -15,7 +15,7 @@ and (min-width : 321px) {
 @media only screen 
 and (max-width : 320px) {
  
-.header_area .main-menu .navbar, .header_area .main-menu .navbar .navbar-brand, .site-main .services-area{
+.header_area .main-menu .navbar, .header_area .main-menu .navbar .navbar-brand, .site-main .contact-area{
   padding: 1rem;
   margin: 0%;
   
@@ -26,7 +26,7 @@ and (max-width : 320px) {
 } */
 
 
-.site-main > .services-area .services{
+.site-main > .contact-area .contact{
   margin: 0rem;
   padding-right :0rem;
   padding-left: 0rem;
@@ -34,7 +34,7 @@ and (max-width : 320px) {
 .site-main .site-banner .site-title h1{
   font-size: 41px;
 }
-.site-main > .services-area .services{
+.site-main > .contact-area .contact{
   width: 13rem;
 }
 }
@@ -73,7 +73,7 @@ and (min-width : 1224px) {
     .container{
         max-width: 90%;
    }
-    .site-main .brand-area, .site-main .services-area .services-title, .site-main .about-area{
+    .site-main .brand-area, .site-main .contact-area .contact-title, .site-main .about-area{
         padding: 3% 4%;
    }
 } */
@@ -87,7 +87,7 @@ and (min-width : 1824px) {
     .container{
         max-width: 60%;
    }
-    .site-main .brand-area, .site-main .services-area .services-title, .site-main .about-area{
+    .site-main .brand-area, .site-main .contact-area .contact-title, .site-main .about-area{
         padding: 3% 4%;
    }
 } */
@@ -99,7 +99,7 @@ and (min-width : 1824px) {
     .container{
         max-width: 90%;
    }
-    .site-main .brand-area, .site-main .services-area .services-title, .site-main .about-area{
+    .site-main .brand-area, .site-main .contact-area .contact-title, .site-main .about-area{
         padding: 3% 4%;
    }
 }

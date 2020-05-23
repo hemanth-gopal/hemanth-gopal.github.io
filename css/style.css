@@ -226,33 +226,84 @@
      border: 5px solid black;
 }
 /* End Project Area */
-/* Services Area */
- .site-main .services-area{
+/* contact Area */
+.site-main .contact-area{
      padding: 6rem 2rem;
-    /* margin: 15rem;
-     border-radius: 65px;
-     background-color: rgb(204, 207, 253);
-     */
      background: linear-gradient(to left, #33ccff 0%, #0000cc 127%);
 }
- .site-main .services-area .services-title{
+ .site-main .contact-area .contact-title{
      padding: 0 14rem;
 }
- .site-main .services-area .services-title h1{
+ .site-main .contact-area .contact-title h1{
      font-size: 35px;
 }
- .site-main > .services-area .services{
-     border-radius: 65px;
-     background: rgba(248, 252, 253, 0.973);
-     padding: 0.5rem 0;
-     width: 16rem;
-     margin: 3rem 2.2rem;
-     transition: box-shadow .7s ease;
-}
- .site-main > .services-area .services:hover{
-     box-shadow: var(--box-shadow);
-}
-/* End Services Area */
+.site-main .contact-area .contact-info{
+     display: flex;
+     width: 100%;
+     max-width: 1200px;
+     align-items: center;
+     justify-content: center;
+     padding: 1rem 20px;
+   }
+   .site-main .contact-area .card{
+     border: 2px solid black;
+     background: white;
+     padding: 0 20px;
+     margin: 0 10px;
+     width: calc(33% - 20px);
+     height: 200px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: black;
+     cursor: pointer;
+   }
+
+   .site-main .contact-area .contact-info .card-icon{
+     font-size: 28px;
+     background: #0138ecd5;
+     width: 60px;
+     height: 60px;
+     text-align: center;
+     line-height: 60px !important;
+     border-radius: 50%;
+     transition: 0.3s linear;
+   }
+   
+   .site-main .contact-area .contact-info .card:hover .card-icon{
+     background: none;
+     color: #0138ecd5;
+     transform: scale(1.6);
+   }
+   
+   .site-main .contact-area .contact-info .card p{
+     margin-top: 20px;
+     font-weight: 300;
+     letter-spacing: 1px;
+     max-height: 0;
+     opacity: 0;
+     transition: 0.3s linear;
+   }
+   
+   .site-main .contact-area .contact-info .card:hover p{
+     max-height: 40px;
+     opacity: 1;
+   }
+
+   @media screen and (max-width:800px) {
+     .site-main .contact-area .contact-info{
+       flex-direction: column;
+     }
+     .site-main .contact-area .card{
+       width: 100%;
+       max-width: 300px;
+       margin: 10px 0;
+     }
+   
+
+   }
+/* End contact Area */
 /* Footer Area */
  footer.footer-area{
      padding: 1rem 0;
