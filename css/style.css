@@ -74,11 +74,12 @@
 }
  .site-main .about-area .about-title h2>span {
      display: block;
-     font: normal bold 49px/ 60px var(--roboto);
-     letter-spacing: 18px;
+     font: normal bold 40px/ 50px var(--opensans);
+     letter-spacing: 14px;
 }
  .site-main .about-area .about-title .paragraph>p {
      padding: .4rem 0;
+     line-height: 1.8;
 }
  .site-main .about-area .about-image {
      padding: 2rem;
