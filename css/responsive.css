@@ -36,9 +36,7 @@
     .site-main .project-area .button-group button{
         font: normal 500 18px/40px var(--opensans);
    }
-    .site-main .about-area .about-title p{
-        padding: 0%;
-   }
+
 }
 /* if the viewport is equal to 1910px or less than that */
 @media only screen and (max-width: 1910px){
