@@ -2,14 +2,37 @@
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-  /* Styles */
+  .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand, .site-main .contact-area{
+        padding: 2%;
+        margin: 0%;
+       
+        
+   }
+  .site-main .site-banner .site-title h1{
+    font-size: 3.3rem;
+  }
+
+  .site-main .site-banner .site-title h1{
+    font-size: 3.3rem;
+  }
+
+  .site-main .about-area .about-title h2 > span{
+    font-size: 38px;
+    letter-spacing: 10px;
+  }
+  .site-main .brand-area .carousel{
+    margin-left: 1rem;
+  }
+  .site-main .project-area .button-group button {
+    font: normal 500 12px/40px var(--opensans);
+  }
+  .site-main .project-area .button-group button+button {
+    padding-left: 10px;
+  }
+
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-  /* Styles */
-}
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
@@ -20,22 +43,28 @@ and (max-width : 320px) {
   margin: 0%;
   
 }
-
-/* .site-main .site-banner .site-title .title-text{
-  font-size: 1.3rem;
-} */
-
-
-.site-main > .contact-area .contact{
-  margin: 0rem;
-  padding-right :0rem;
-  padding-left: 0rem;
-}
 .site-main .site-banner .site-title h1{
-  font-size: 41px;
+  font-size: 2.3rem;
 }
-.site-main > .contact-area .contact{
-  width: 13rem;
+
+.site-main .site-banner .site-title h4{
+  font-size: 1.3rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+  font-size: 31px;
+  letter-spacing: 10px;
+}
+
+.site-main .brand-area .carousel{
+  margin-left: 1rem;
+}
+
+.site-main .project-area .button-group button {
+  font: normal 500 10px/29px var(--opensans);
+}
+.site-main .project-area .button-group button+button {
+  padding-left: 8px;
 }
 }
 
@@ -45,53 +74,71 @@ and (max-width : 320px) {
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-  /* Styles */
+  .site-main .about-area .about-title h2 > span{
+    font-size: 31px;
+    letter-spacing: 10px;
+}
+.site-main .brand-area {
+    padding-left: 2rem
+}
+.site-main .project-area .button-group button{
+    font: normal 500 18px/40px var(--opensans);
+}
 }
 
-/* iPads (landscape) ----------- */
+/* iPads Pros ----------- */
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) 
 and (orientation : landscape) {
-  /* Styles */
+  .site-main .brand-area .carousel{
+    margin-left: 0;
+  }
 }
 
-/* iPads (portrait) ----------- */
+/* Large screens ----------- */
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-  /* Styles */
+and (min-width : 1921px) {
+  .header_area .main-menu .navbar, .header_area .main-menu .navbar .navbar-brand, .site-main .contact-area{
+    padding: 1rem;
+    margin: 0%;
+    
+  }
+  .site-main .site-banner .site-title h1{
+    font-size: 10rem;
+  }
+  
+  .site-main .site-banner .site-title h4{
+    font-size: 3rem;
+  }
+  
+  .site-main .about-area .about-title h2 > span{
+    font-size: 51px;
+    letter-spacing: 19px;
+  }
+  
+  .site-main .brand-area .carousel{
+    margin-left: 0rem;
+  }
+  
+  .container{
+    max-width: 90%;
+}
+.site-main .brand-area, .site-main .contact-area .contact-title, .site-main .about-area{
+    padding: 3% 4%;
 }
 
-/* Desktops and laptops -----------
-@media only screen 
-and (min-width : 1224px) {
-    .header_area .main-menu .navbar{
-        padding: 1rem;
-   }
-    .container{
-        max-width: 90%;
-   }
-    .site-main .brand-area, .site-main .contact-area .contact-title, .site-main .about-area{
-        padding: 3% 4%;
-   }
-} */
+}
 
-/* Large screens -----------
-@media only screen 
-and (min-width : 1824px) {
-    .header_area .main-menu .navbar{
-        padding: 1rem;
-   }
-    .container{
-        max-width: 60%;
-   }
-    .site-main .brand-area, .site-main .contact-area .contact-title, .site-main .about-area{
-        padding: 3% 4%;
-   }
-} */
+/* Macbook Pro 16" */
+@media only screen and (min-width: 1536px) and (max-width: 767px) { 
+  .site-main .brand-area{
+    padding: 6% 10%;
+  }
+}
 
+
+/* Larger Screens */
 @media only screen and (max-width: 1910px){
     .header_area .main-menu .navbar{
         padding: 1rem;
@@ -99,10 +146,12 @@ and (min-width : 1824px) {
     .container{
         max-width: 90%;
    }
-    .site-main .brand-area, .site-main .contact-area .contact-title, .site-main .about-area{
+   .site-main .brand-area, .site-main .contact-area .contact-title, .site-main .about-area{
         padding: 3% 4%;
    }
 }
+
+
 
 /* iPhone 4 - 5s ----------- */
 @media
@@ -113,14 +162,14 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 /* iPhone 6 ----------- */
 @media
-only screen and (max-device-width: 667px) 
+only screen and (max-device-width: 667px),
 only screen and (-webkit-device-pixel-ratio: 2) {
   /* Styles */
 }
 
 /* iPhone 6+ ----------- */
 @media
-only screen and (min-device-width : 414px) 
+only screen and (min-device-width : 414px) ,
 only screen and (-webkit-device-pixel-ratio: 3) {
   /*** You've spent way too much on a phone ***/
 }
