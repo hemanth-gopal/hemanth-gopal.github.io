@@ -58,12 +58,7 @@
      font-size: 5rem;
      padding-bottom: 2%;
 }
-/* .site-main .site-banner .banner-image>img {
-     padding: 7rem 0;
-     width: 90rem;
-     border-radius: 30px;
-}
- */
+
  .site-main .site-banner .site-buttons {
      padding-bottom: 24rem;
 }
@@ -87,7 +82,7 @@
 /* End About Area */
 /* Start Brand Area */
  .site-main .brand-area {
-     padding: 7rem 2rem 15rem 20rem;
+     padding: 7rem 2rem 15rem 8rem;
      margin-bottom: 1rem;
 }
  .site-main .brand-area .first-row .col-lg-3 {
@@ -168,11 +163,11 @@
      box-shadow: var(--box-shadow);
      margin: 3rem 0rem;
 }
- .site-main .brand-area .carousel{
+ /* .site-main .brand-area .carousel{
      margin-left: 3rem;
      margin-right: 0rem;
      padding-top: 2.5rem;
-}
+} */
  .site-main .brand-area .client .client-img{
      padding: 2rem;
 }

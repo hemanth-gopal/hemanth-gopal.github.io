@@ -86,16 +86,6 @@ and (max-device-width : 1024px) {
 }
 }
 
-/* iPads Pros ----------- */
-@media only screen 
-and (min-device-width : 1024px) 
-and (max-device-width : 1366px) 
-and (orientation : landscape) {
-  .site-main .brand-area .carousel{
-    margin-left: 0;
-  }
-}
-
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1921px) {
@@ -128,13 +118,6 @@ and (min-width : 1921px) {
     padding: 3% 4%;
 }
 
-}
-
-/* Macbook Pro 16" */
-@media only screen and (min-width: 1536px) and (max-width: 767px) { 
-  .site-main .brand-area{
-    padding: 6% 10%;
-  }
 }
 
 
